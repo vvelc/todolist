@@ -1,0 +1,56 @@
+body {
+    background-color: #333333;
+    color: white;
+}
+
+button.rounded-right {
+    border-radius: 50px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.input-group > input {
+    border-right: 1px solid white;
+    border-radius: 50px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.todoitems-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todoitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.item-button {
+    padding: 0;
+    line-height: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item-button:focus {
+    outline: none;
+}
+
+.item-button:hover {
+    filter: brightness(0.9);
+}
+
+.edit-button {
+    color: #00ffff;
+    margin-right: 0.3rem;
+}
+
+.delete-button {
+    color: #ff0000;
+}
